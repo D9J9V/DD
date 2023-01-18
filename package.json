@@ -1,5 +1,6 @@
 {
   "name": "cuponeraweb3",
+  "type": "module",
   "version": "1.0.0",
   "main": "node_modules/expo/AppEntry.js",
   "scripts": {
@@ -14,6 +15,7 @@
   },
   "dependencies": {
     "@expo/vector-icons": "^13.0.0",
+    "@expo/webpack-config": "^0.17.2",
     "@react-navigation/bottom-tabs": "^6.0.5",
     "@react-navigation/native": "^6.0.2",
     "@react-navigation/native-stack": "^6.1.0",
@@ -26,6 +28,10 @@
     "expo-status-bar": "~1.4.2",
     "expo-system-ui": "~2.0.1",
     "expo-web-browser": "~12.0.0",
+    "mime": "^3.0.0",
+    "nft.storage": "^7.0.0",
+    "node-fetch": "^3.3.0",
+    "notenv": "^2.0.3",
     "react": "18.1.0",
     "react-dom": "18.1.0",
     "react-native": "0.70.5",
@@ -42,5 +48,9 @@
     "react-test-renderer": "18.1.0",
     "typescript": "^4.6.3"
   },
-  "private": true
+  "private": true,
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
 }
